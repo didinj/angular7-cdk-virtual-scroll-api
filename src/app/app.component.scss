@@ -1,0 +1,24 @@
+.container {
+  width: 96%;
+  margin: 10px auto;
+  .example-viewport {
+    height: 220px;
+    width: 100%;
+    border: 1px solid black;
+    background: white;
+    border: solid 1px #999;
+  }
+  .example-item {
+    height: 160px;
+    padding: 5px 10px;
+    color: #999;
+    .img-item {
+        float: left;
+        width: 25%;
+    }
+    .p-item {
+        float: left;
+        width: 75%;
+    }
+  }
+}
